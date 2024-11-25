@@ -22,14 +22,14 @@
 .t-feed-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Align items at the top to make it look natural */
+    justify-content: flex-start; 
     margin: 0 auto;
     width: 100%;
-    height: 200px; /* Set a fixed height */
-    overflow-y: auto; /* Allow scrolling inside the container */
-    border: 1px solid #ddd; /* Optional: Add a border to visually define the container */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visual definition */
-    background: #014015; /* Set a background color for better contrast */
+    height: 200px; 
+    overflow-y: auto; 
+    border: 1px solid #ddd; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background: #014015; 
 }
 
 
@@ -47,14 +47,14 @@
 .m-feed-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Align items at the top to make it look natural */
+    justify-content: flex-start; 
     margin: 0 auto;
     width: 100%;
-    height: 200px; /* Set a fixed height */
-    overflow-y: auto; /* Allow scrolling inside the container */
-    border: 1px solid #ddd; /* Optional: Add a border to visually define the container */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visual definition */
-    background: #002973; /* Set a background color for better contrast */
+    height: 200px; 
+    overflow-y: auto; 
+    border: 1px solid #ddd; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background: #002973; 
 }
 
 .m-post {
@@ -78,14 +78,14 @@
 .b-feed-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Align items at the top to make it look natural */
+    justify-content: flex-start; 
     margin: 0 auto;
     width: 100%;
-    height: 200px; /* Set a fixed height */
-    overflow-y: auto; /* Allow scrolling inside the container */
-    border: 1px solid #ddd; /* Optional: Add a border to visually define the container */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visual definition */
-    background: #231F20; /* Set a background color for better contrast */
+    height: 200px; 
+    overflow-y: auto; 
+    border: 1px solid #ddd; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background: #231F20; 
 }
 
 .column {

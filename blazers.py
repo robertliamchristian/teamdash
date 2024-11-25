@@ -16,9 +16,8 @@ def blazers_bsky_feed():
     parsed_posts = []
 
     for post in feed:
-        post_data = post.post  # Get the PostView object
+        post_data = post.post  
         
-        # Extracting the main details
         try:
             author = post_data.author.display_name if post_data.author else "Unknown Author"
             content = post_data.record.text if hasattr(post_data.record, 'text') else "No content"
