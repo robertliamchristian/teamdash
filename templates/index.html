@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sports Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+            <div class="timbers">
+                <div class="timbers-logo"><img src="{{ url_for('static', filename='assets/Portland-Timbers-symbol.jpg') }}" alt="Timbers" width="100"></div>
+                <h3>bsky</h3>
+                <div class="t-feed-container">
+                    {% for post in timbers_posts %}
+                    <div class="t-post">
+                        <h3>{{ post.author }}</h3>
+                        <p>{{ post.content }}</p>
+                        <small>Posted on: {{ post.created_at }}</small>
+                    </div>
+                    <hr>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="mets">
+                <div class="mets-logo"><img src="{{ url_for('static', filename='assets/New_York_Mets.png') }}" alt="Mets" width="60"></div>
+                <h3>bsky</h3>
+                <div class="m-feed-container">
+                <div class="mets-feed">
+                    {% for post in mets_posts %}
+                    <div class="m-post">
+                        <h3>{{ post.author }}</h3>
+                        <p>{{ post.content }}</p>
+                        <small>Posted on: {{ post.created_at }}</small>
+                    </div>
+                    <hr>
+                    {% endfor %}
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="blazers">
+                <div class="blazers-logo"><img src="{{ url_for('static', filename='assets/fpo-blazers-logo.jpg') }}" alt="Blazers" width="100"></div>
+                <h3>bsky</h3>
+                <div class="b-feed-container">
+                <div class="blazers-feed">
+                    {% for post in blazers_posts %}
+                    <div class="b-post">
+                        <h3>{{ post.author }}</h3>
+                        <p>{{ post.content }}</p>
+                        <small>Posted on: {{ post.created_at }}</small>
+                    </div>
+                    <hr>
+                    {% endfor %}
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+

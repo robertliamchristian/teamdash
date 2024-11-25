@@ -1,0 +1,103 @@
+.html {
+    background-color: #231F20;
+}
+
+
+.timbers {
+    color: #DC9801;
+    background-color: #014015;
+    height: 100%;
+}
+
+.timbers-logo {
+    padding-top: 10px;
+}
+
+.t-post {
+    color: #DC9801;
+    font-size: .75em;
+    max-height: 300px;
+}
+
+.t-feed-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items at the top to make it look natural */
+    margin: 0 auto;
+    width: 100%;
+    height: 200px; /* Set a fixed height */
+    overflow-y: auto; /* Allow scrolling inside the container */
+    border: 1px solid #ddd; /* Optional: Add a border to visually define the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visual definition */
+    background: #014015; /* Set a background color for better contrast */
+}
+
+
+.mets {
+    color: #FF5907;
+    background-color: #002973;
+    height: 100%;
+}
+
+.mets-logo {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.m-feed-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items at the top to make it look natural */
+    margin: 0 auto;
+    width: 100%;
+    height: 200px; /* Set a fixed height */
+    overflow-y: auto; /* Allow scrolling inside the container */
+    border: 1px solid #ddd; /* Optional: Add a border to visually define the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visual definition */
+    background: #002973; /* Set a background color for better contrast */
+}
+
+.m-post {
+    color: #FF5907;
+    font-size: .75em;
+    max-height: 300px;
+}
+
+.blazers {
+    color: #CBCFD0;
+    background-color: #231F20;
+    height: 100%;
+}
+
+.b-post {
+    color: #CBCFD0;
+    font-size: .75em;
+    max-height: 300px;
+}
+
+.b-feed-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items at the top to make it look natural */
+    margin: 0 auto;
+    width: 100%;
+    height: 200px; /* Set a fixed height */
+    overflow-y: auto; /* Allow scrolling inside the container */
+    border: 1px solid #ddd; /* Optional: Add a border to visually define the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visual definition */
+    background: #231F20; /* Set a background color for better contrast */
+}
+
+.column {
+    float: left;
+    width: 32%;
+    background-color: grey;
+    margin: 2px;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
